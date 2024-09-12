@@ -9,7 +9,9 @@ int main(){
     // Task 3: Write image
 
     // Abrindo arquivo de saída
-    std::ofstream imageOut; // Usar ofstream para saída de dados!!!
+    std::ofstream imageOut;
+    std::ifstream imageIn;
+    
     imageOut.open("images/image-10x10.ppm");
 
     // Verificar se o arquivo foi aberto corretamente
